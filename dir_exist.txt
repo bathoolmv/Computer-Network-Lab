@@ -1,0 +1,9 @@
+#!/bin/bash
+read -p "Enter a Filename: " dir
+if [ ! -d $dir ]
+18
+then
+echo "The directory $dir does not exist!"
+exit 1
+fi
+echo "The directory $dir exists."

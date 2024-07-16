@@ -1,0 +1,21 @@
+#!/bin/bash
+
+rows=5
+
+# first loop for printing all rows
+for ((i = 0; i < rows; i++))
+do
+    # first inner loop for printing white spaces
+    for ((j = 0; j < 2 * i; j++))
+    do
+        echo -n " "
+    done
+
+    # second inner loop for printing star *
+    for ((k = 0; k < rows - i; k++))
+    do
+        echo -n "* "
+    done
+
+    echo
+done

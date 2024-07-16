@@ -1,0 +1,12 @@
+Make directory
+mkdir: Creates a Directory
+mkdir bin
+
+chmod: Changes folder permissions.
+chmod u+rwx bin/hello_world.sh
+
+echo:print
+echo with new line
+echo -e 'Hi\nthere!'
+
+

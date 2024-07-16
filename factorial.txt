@@ -1,0 +1,8 @@
+echo "Enter a number"
+read number
+fac=1;
+for((i=1;i<=number;i++))
+do
+fac=$((fac*i))
+done
+echo "factorial= $fac"

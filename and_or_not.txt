@@ -1,0 +1,13 @@
+echo "enter first number"
+read n1;
+echo "enter second number"
+read n2;
+echo "1.AND 2.OR 3.NOT"
+echo "enter your choice"
+read ch
+case $ch in
+1) echo "result $n1 & $n2= $((n1&n2))";;
+2) echo "result $n1 | $n2= $((n1|n2))";;
+3) echo "result $n1 ^ $n2= $((n1^n2))";;
+esac
+

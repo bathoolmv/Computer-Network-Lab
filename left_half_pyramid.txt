@@ -1,0 +1,21 @@
+#!/bin/bash
+
+rows=5
+
+# first loop is for printing the rows
+for ((i = 0; i < rows; i++))
+do
+    # loop for printing leading whitespaces
+    for ((j = 0; j < 2 * (rows - i) - 1; j++))
+    do
+        echo -n " "
+    done
+
+    # loop for printing * character
+    for ((k = 0; k <= i; k++))
+    do
+        echo -n "* "
+    done
+
+    echo
+done

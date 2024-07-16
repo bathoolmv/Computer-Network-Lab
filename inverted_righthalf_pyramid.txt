@@ -1,0 +1,14 @@
+#!/bin/bash
+
+rows=5
+
+# first loop to print all rows
+for ((i = 0; i < rows; i++))
+do
+    # first inner loop to print the * in each row
+    for ((j = 0; j < rows - i; j++))
+    do
+        echo -n "* "
+    done
+    echo
+done

@@ -1,0 +1,20 @@
+list of all even and odd numbers
+
+echo "enter a number"
+read n
+echo "even numbers"
+for((i=0;i<n;i++))
+do
+if((i%2==0))
+then 
+echo $i
+fi
+done
+echo "odd numbers"
+for((i=0;i<n;i++))
+do
+if((i%2!=0))
+then
+echo $i
+fi
+done

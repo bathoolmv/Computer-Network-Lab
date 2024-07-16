@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "enter the number of rows"
+read rows
+
+# first loop for printing rows
+for ((i = 0; i < rows; i++))
+do
+    # second loop for printing character in each row
+    for ((j = 0; j <= i; j++))
+    do
+        echo -n "* "
+    done
+    echo
+done
